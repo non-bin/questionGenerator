@@ -36,3 +36,7 @@ function randomUpTo(max) // min and max included
 {
     return Math.floor(Math.random()*(max+1));
 }
+
+setTimeout(function() {
+    document.getElementById('instructions').className = 'instructions white hide';
+}, 5000)
