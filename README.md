@@ -2,6 +2,11 @@
 
 generates a question from lists of words
 
+## Usage
+
+Open [index.html](./index.html) in a browser.  
+The wordlist may be edited in `wordlist.js`
+
 ## License
 
     generates a question from lists of words
