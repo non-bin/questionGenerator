@@ -1,4 +1,4 @@
-[
+const wordlist = [
 	[
 		"who",
 		"what",
@@ -11,9 +11,9 @@
 	{
 		"who": ["is", "went", "didn't"],
 		"what": ["was", "stole", "entered"],
-		"when": ["when"],
-		"where": ["where"],
-		"why": ["why"],
-		"how": ["how"]
+		"when": ["did", "was", "is"],
+		"where": ["did", "was", "is"],
+		"why": ["did", "was", "is"],
+		"how": ["did", "was", "is"]
 	}
 ]
