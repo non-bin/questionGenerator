@@ -1,0 +1,19 @@
+[
+	[
+		"who",
+		"what",
+		"when",
+		"where",
+		"why",
+		"how"
+	],
+
+	{
+		"who": ["is", "went", "didn't"],
+		"what": ["was", "stole", "entered"],
+		"when": ["when"],
+		"where": ["where"],
+		"why": ["why"],
+		"how": ["how"]
+	}
+]
