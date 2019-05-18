@@ -3,7 +3,7 @@ body
 	background-color: rgba(0,0,0,0.98);
 }
 
-#output
+.output
 {
 	width: 70%;
 	text-align: center;
