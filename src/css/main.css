@@ -1,0 +1,63 @@
+body
+{
+	background-color: rgba(0,0,0,0.98);
+}
+
+#output
+{
+	width: 70%;
+	text-align: center;
+	font-size: 20vmin;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translateX(-50%) translateY(-50%);
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+a {
+	outline: 0;
+}
+
+.word
+{
+	text-decoration: none;
+}
+
+
+/* colours: */
+
+.yellow
+{
+	color: #fefe33;
+}
+
+.green
+{
+	color: #5ada33;
+}
+
+.blue
+{
+	color: #33a6cc;
+}
+
+.purple
+{
+	color: #6c6aff;
+}
+
+.magenta
+{
+	color: #985df8;
+}
+
+.pink
+{
+	color: #cf3e8e;
+}
+
+.red
+{
+	color: #e94b4b;
+}
