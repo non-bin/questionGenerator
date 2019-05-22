@@ -4,14 +4,6 @@ var wordOneNew = '';
 var wordTwoNew = '';
 
 // var outWordOne = document.getElementById('word1');
-// var outWordTwo = document.getElementById('word2');
-
-function start() {
-	console.log(wordlist);
-
-	genBothWords();
-}
-
 function genBothWords() {
 	do {
 		wordOneNew = wordlist[0][randomUpTo(wordlist[0].length-1)];
