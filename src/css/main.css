@@ -24,7 +24,7 @@ a {
 }
 
 .instructions {
-	transition:opacity 2000ms;
+	transition:opacity 2000ms; /* fade out over 2 seconds */
 	font-size: 6mm;
 	text-align: center;
 	position: absolute;

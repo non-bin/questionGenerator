@@ -1,4 +1,5 @@
-const wordlist = [
+const wordlist =
+[
 	[
 		"who",
 		"what",
