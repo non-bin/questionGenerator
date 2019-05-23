@@ -1,7 +1,8 @@
-var wordOne     = '';
-var wordTwo     = '';
-var wordOneNew = '';
-var wordTwoNew = '';
+var wordOne         = '';
+var wordTwo         = '';
+var wordOneNew      = '';
+var wordTwoNew      = '';
+var wordTwoCategory = '';
 
 function genBothWords() { // regenerate both words
 	do {
@@ -15,8 +16,14 @@ function genBothWords() { // regenerate both words
 }
 
 function genWordTwo() { // regenerate the second word
+	if (typeof(wordlist[1][wordOne]) == 'string') {
+		wordTwoCategory = wordlist[1][wordOne]
+	} else {
+		wordTwoCategory = wordOne;
+	}
+
 	do {
-		wordTwoNew = wordlist[1][wordOne][randomUpTo(wordlist[1][wordOne].length-1)]; // don't pick the same word again
+		wordTwoNew = wordlist[1][wordTwoCategory][randomUpTo(wordlist[1][wordOne].length-1)]; // don't pick the same word again
 	} while (wordTwo == wordTwoNew);
 
 	wordTwo = wordTwoNew;
