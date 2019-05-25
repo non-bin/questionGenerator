@@ -4,6 +4,12 @@ body
 	font-family: Arial, Helvetica, sans-serif;
 }
 
+/* avoid 000webhost watermark */
+body > div > a > img[alt="www.000webhost.com"]
+{
+	display: none;
+}
+
 .output
 {
 	text-align: center;
