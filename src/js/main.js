@@ -23,7 +23,7 @@ function genWordTwo() { // regenerate the second word
 	}
 
 	do {
-		wordTwoNew = wordlist[1][wordTwoCategory][randomUpTo(wordlist[1][wordOne].length-1)]; // don't pick the same word again
+		wordTwoNew = wordlist[1][wordTwoCategory][randomUpTo(wordlist[1][wordTwoCategory].length-1)]; // don't pick the same word again
 	} while (wordTwo == wordTwoNew);
 
 	wordTwo = wordTwoNew;
